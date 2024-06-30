@@ -19,4 +19,5 @@ fun main() {
     )
     println(books.flatMap { it.authors }.toSet())
 
+    // flatmap необходим чтоб  объединить коллекцию коллекций элементов
 }
